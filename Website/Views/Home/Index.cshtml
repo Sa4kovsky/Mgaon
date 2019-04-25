@@ -1,0 +1,40 @@
+﻿@model IEnumerable<Website.Models.News>
+
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = "Home Page";
+}
+<script>
+    /* Demo purposes only */
+    $(".hover").mouseleave(
+        function () {
+            $(this).removeClass("hover");
+        }
+    );
+</script>
+
+<h3>@Localizer["Message"]</h3>
+
+@foreach (var item in Model)
+{
+    <figure class="baha1493">
+        <div class="image"><img src=@item.Images alt="ls-sample1" /></div>
+        <figcaption>
+            <div class="date"><span class="day">@item.DateStart.Day</span><span class="month">@item.DateStart.Month</span></div>
+            <h3></h3>
+            <p>
+                @item.Title <br>
+                <br>
+                @item.Organization <br>
+                <br>
+                @item.Position <br>
+                <br>
+                @item.Name <br>
+            </p>
+            <footer>
+                <div class="comments"><i class="ion-chatboxes"></i>Дата проведения @item.DateStart - @item.DateFinish</div>
+            </footer>
+        </figcaption>
+    </figure>
+}

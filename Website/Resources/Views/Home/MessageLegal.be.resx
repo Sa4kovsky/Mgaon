@@ -1,0 +1,224 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Address" xml:space="preserve">
+    <value>Месцазнаходжанне юрыдычнай асобы (абавязкова)</value>
+  </data>
+  <data name="Designation" xml:space="preserve">
+    <value>Назва і (або) адрас арганізацыі альбо пасада асобы (абавязкова)</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Ваш e-mail (абавязкова)</value>
+  </data>
+  <data name="EmailMassage" xml:space="preserve">
+    <value>Электронны зварот</value>
+  </data>
+  <data name="Fail" xml:space="preserve">
+    <value>Выбярыте файл</value>
+  </data>
+  <data name="FileMessage" xml:space="preserve">
+    <value>&lt;div class="home-content"&gt;
+&lt;p&gt;Дапушчальнымі фарматамі дакументаў і (або) звестак, якія прымацоўваюцца ў электронным відзе, з'яўляюцца &lt;em&gt;Portable Document Format/A&lt;em&gt; (&lt;em&gt;PDF/A&lt;/em&gt;), &lt;em&gt;Office Open XML&lt;/em&gt; (&lt;em&gt;DOCX&lt;/em&gt;), двайны фармат з разметкай (&lt;em&gt;DOC&lt;/em&gt;), &lt;em&gt;Rich Text Format&lt;/em&gt; (&lt;em&gt;RTF&lt;/em&gt;), тэкставы файл (&lt;em&gt;TXT&lt;/em&gt;), &lt;em&gt;Open Document Format &lt;/em&gt; (&lt;em&gt;ODT&lt;/em&gt;), фармат архівацыі і скарачэння даных (&lt;em&gt;ZIP, RAR&lt;/em&gt;), &lt;em&gt;Portable Network Graphics&lt;/em&gt; (&lt;em&gt;PNG&lt;/em&gt;), &lt;em&gt;Tagged Image File Format&lt;/em&gt; (&lt;em&gt;TIFF&lt;/em&gt;), &lt;em&gt;Joint Photograph Experts Group&lt;/em&gt; (&lt;em&gt;JPEG&lt;/em&gt;), &lt;em&gt;Joint Photograph Group&lt;/em&gt; (&lt;em&gt;JPG&lt;/em&gt;).&lt;/p&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="Footer" xml:space="preserve">
+    <value>&lt;div class="home-content"&gt;
+&lt;p&gt;Звароты павінны быць разгледжаны не пазней 15 дзён з дня, які ідзе следам за днём рэгістрацыі звароту Прадпрыемствам, а якія патрабуюць дадатковага вывучэння і праверкі – не пазней 1 месяца.&lt;br&gt;
+Адказы на электронныя звароты накіроўваюцца ў электронным відзе на адрас электроннай пошты, пазначаны ў электронным звароце, або ў пісьмовым відзе на адрас месца жыхарства (месца знаходжання) грамадзяніна або месца знаходжання юрыдычнай асобы ў выпадках, устаноўленых Законам.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Пакідаюцца без разгляду па сутнасці электронныя звароты, якія (па якіх):&lt;/b&gt;&lt;br&gt;
+1.выкладзены не на беларускай або рускай мове;&lt;br&gt;
+2.не змяшчаюць прозвішча, уласнага імя, імя па бацьку, адраса месца жыхарства (месца знаходжання) грамадзяніна;&lt;br&gt;
+3.не змяшчаюць поўнай назвы юрыдычнай асобы і адраса яго месца знаходжання, прозвішча, уласнага імя, імя па бацьку кіраўніка або асобы, упаўнаважанай ва ўстаноўленым парадку падпісваць звароты (для юрыдычных асоб), адраса электроннай пошты заяўніка;&lt;br&gt;
+4.змяшчаюць тэкст, які нельга прачытаць;&lt;br&gt;
+5.змяшчаюць нецэнзурныя або зняважлівыя словы або выразы;&lt;br&gt;
+6.падаюцца прадстаўнікамі заяўнікаў, і да іх не дадаюцца электронныя копіі дакументаў, якія пацвярджаюць іх паўнамоцтвы;&lt;br&gt;
+7.падлягаюць разгляду ў адпаведнасці з заканадаўствам аб канстытуцыйным судаводстве, грамадзянскім, грамадзянскім працэсуальным, гаспадарчым працэсуальным, крымінальна-працэсуальным заканадаўствам, заканадаўствам, якое вызначае парадак адміністрацыйнага працэсу, заканадаўствам аб адміністрацыйных працэдурах або ў адпаведнасці з заканадаўчымі актамі вызначаны іншы парадак падачы і разгляду такіх зваротаў;&lt;br&gt;
+8.змяшчаюць пытанні, якія не датычацца да кампетэнцыі Прадпрыемства;&lt;br&gt;
+9.прапушчаны без уважлівай прычыны тэрмін падачы звароту;&lt;br&gt;
+10.пададзены паўторны зварот, калі ён ужо было разгледжаны па сутнасці і не змяшчае новых абставін, якія маюць значэнне для разгляду звароту па сутнасці;&lt;br&gt;
+11.з заяўнікам спынена перапіска.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Адкліканне электроннага звароту&lt;/b&gt;&lt;br&gt;
+Заяўнік мае права адклікаць свой зварот, пакуль ен не разгледзены па сутнасці.&lt;br&gt;
+Адкліканне электроннага звароту ажыццяўляецца шляхам падачы пісьмовай заявы або напраўлення заявы ў электроннай форме тым жа спосабам, якім быў накіраваны электронны зварот.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Абскарджанне адказаў на звароты&lt;/b&gt;&lt;/br&gt;
+Адказ Прадпрыемства на зварот або рашэнне аб пакіданні звароту без разгляду па сутнасці могуць быць абскарджаны ў вышэйстаячую арганізацыю – Мінскі гарадскі выканаўчы камітэт (220030, г.Мінск, пр. Незалежнасці, д. 8).&lt;/p&gt;
+
+&lt;b&gt;&lt;p&gt;Графік работы Мінгарвыканкама:&lt;/b&gt;&lt;br&gt;
+  &lt;table &gt;
+   &lt;tr&gt;&lt;td&gt;панядзелак-чацвер &amp;nbsp  &lt;/td&gt;&lt;td&gt;з 8.45 да 18.00&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;&lt;td&gt;пятніца &amp;nbsp   &lt;/td&gt;&lt;td&gt; з 8.45 да 16.45&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;&lt;td&gt;абед &amp;nbsp  &lt;/td&gt;&lt;td&gt; з 13.00 да 14.00&lt;/td&gt;&lt;/tr&gt;
+  &lt;/table&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="FulName" xml:space="preserve">
+    <value>Поўная назва юрыдычнай асобы (абавязкова)</value>
+  </data>
+  <data name="Head" xml:space="preserve">
+    <value>&lt;div class="home-content"&gt;
+&lt;p&gt;Электронныя звароты грамадзян, у тым ліку індывідуальных прадпрымальнікаў (далей – грамадзян), і юрыдычных асоб у КУП «Мінскае гарадское агенцтва абслугоўвання насельніцтва» разглядаюцца ў адпаведнасці з патрабаваннямі Закона Рэспублікі Беларусь ад 18 ліпеня 2011 г. № 300-З ”Об обращениях граждан и юридических лиц“ (далей – Закон).&lt;/p&gt;
+
+&lt;p&gt;У адпаведнасці з Законам Рэспублікі Беларусь «Об обращениях граждан и юридических лиц» электронны зварот пішацца на беларускай або рускай мовах.&lt;/p&gt;
+
+&lt;b&gt;Электронны зварот грамадзяніна ў абавязковым парадку павінен змяшчаць:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;прозвішча, уласнае імя, імя па бацьку (калі маецца) або ініцыялы грамадзяніна;&lt;/li&gt;
+&lt;li&gt;адрас месца яго жыхарства (месцы знаходжання);&lt;/li&gt;
+&lt;li&gt;пераказ сутнасці звароту;&lt;/li&gt;
+&lt;li&gt;адрас электроннай пошты грамадзяніна.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;b&gt;Электронны зварот юрыдычнай асобы ў абавязковым парадку павінен змяшчаць:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;поўную назву юрыдычнай асобы;&lt;/li&gt;
+&lt;li&gt;месца знаходжання юрыдычнай асобы;&lt;/li&gt;
+&lt;li&gt;пераказ сутнасці звароту;&lt;/li&gt;
+&lt;li&gt;прозвішча, уласнае імя, імя па бацьку (калі маецца) або ініцыялы кіраўніка або асобы, упаўнаважанай ва ўстаноўленым парадку падпісваць звароты;&lt;/li&gt;
+&lt;li&gt;адрас электроннай пошты юрыдычнай асобы.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Увага! &lt;/b&gt;&lt;br&gt;Да электронных зваротаў, якія падаюцца прадстаўнікамі заяўнікаў, павінны дадавацца электронныя копіі дакументаў, якія пацвярджаюць іх паўнамоцтвы (пункт 2 артыкула 25 Закона Рэспублікі Беларусь ад 18 ліпеня 2011 г. № 300-З "Об обращениях граждан и юридических лиц").&lt;/p&gt;
+
+&lt;p&gt;Згодна пункту 7 артыкула 12 Закона ў зваротах павінна змяшчацца інфармацыя аб выніках іх папярэдняга разгляду з дадаткам (пры наяўнасці) дакументаў, якія пацвярджаюць гэту інфармацыю.&lt;/p&gt;
+&lt;br&gt;
+&lt;p&gt;&lt;b&gt;Звяртаем Вашу ўвагу, што на паведамленні грамадзян або юрыдычных асоб, накіраваных Прадпрыемству пры дапамозе іншых рубрык дадзенага сайта або адрасоў электроннай пошты Прадпрыемства, не распаўсюджваецца дзеянне Закону Рэспублікі Беларусь «Об обращениях граждан и юридических лиц». Адказы на такія паведамленні не накіроўваюцца.&lt;/b&gt;&lt;/p&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="Mail" xml:space="preserve">
+    <value>Паведамленне (абавязкова)</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Звароты грамадзян</value>
+  </data>
+  <data name="MessageLegal" xml:space="preserve">
+    <value>Звароты юрыдычных асоб</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Прозвішча, уласнае імя, імя па бацьку (калі такое маецца) або ініцыялы кіраўніка або асобы, упаўнаважанай ва ўстаноўленым парадку падпісваць звароты (абавязкова)</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Кантактны тэлефон</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Адправіць</value>
+  </data>
+</root>

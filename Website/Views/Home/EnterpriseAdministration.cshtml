@@ -1,0 +1,128 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = "EnterpriseAdministration";
+}
+
+<div class="home-content">
+    <div class="center">
+        <button class="btn btn-info btn-block" type="button" data-toggle="collapse" data-target="#collapseDirector" aria-expanded="false" aria-controls="collapseDirector">
+            <p align="left"> @Localizer["Director"] </p>
+        </button>
+    </div>
+    <div class="collapse" id="collapseDirector">
+        <div class="card card-body">
+            @Localizer["NameDirector"]
+        </div>
+    </div>
+
+    <div class="center">
+        <button class="btn btn-info btn-block" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            <p align="left">@Localizer["Example"]</p>
+        </button>
+    </div>
+    <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+            @Localizer["NameExample"]
+        </div>
+    </div>
+
+    <div class="center">
+        <button class="btn btn-info btn-block" type="button" data-toggle="collapse" data-target="#collapseHead" aria-expanded="false" aria-controls="collapseHead">
+            <p align="left"> @Localizer["Head"] </p>
+        </button>
+    </div>
+    <div class="collapse" id="collapseHead">
+        <div class="card card-body">
+            @Localizer["NameHead"]
+        </div>
+    </div>
+
+    <div class="center">
+        <button class="btn btn-info btn-block" type="button" data-toggle="collapse" data-target="#collapseBD" aria-expanded="false" aria-controls="collapseBD">
+            <p align="left"> @Localizer["BD"] </p>
+        </button>
+    </div>
+    <div class="collapse" id="collapseBD">
+        <div class="card card-body">
+            @Localizer["NameBD"]
+            <div align="center">
+                <a href="https://minsk.gov.by/ru/org/5171/">@Localizer["1"]</a> <br />
+                                                                                       <a href="https://minsk.gov.by/ru/org/5184/">@Localizer["2"]</a> <br />
+                                                                                                                                                              <a href="https://minsk.gov.by/ru/org/5170/">@Localizer["3"]</a> <br />
+                                                                                                                                                                                                                              <h5>@Localizer["Sector"] № 1</h5>
+                                                                                                                                                                                                                              <h5>@Localizer["Sector"] № 2</h5>
+                <a href="https://minsk.gov.by/ru/org/5189/">@Localizer["4"]</a> <br />
+                                                                                       <a href="https://minsk.gov.by/ru/org/5161/">@Localizer["5"]</a> <br />
+                                                                                                                                                       <h5>@Localizer["Sector"] № 1</h5>
+                <a href="https://minsk.gov.by/ru/org/5141/">@Localizer["6"]</a> <br />
+                                                                                <h5>@Localizer["Sector"] № 1</h5>
+                <a href="https://minsk.gov.by/ru/org/5109/">@Localizer["7"]</a> <br />
+                                                                                <h5>@Localizer["Sector"] № 1</h5>
+                <a href="https://minsk.gov.by/ru/org/5088/">@Localizer["8"]</a>
+                <h5>@Localizer["Sector"] № 1</h5>
+                <h5>@Localizer["Sector"] № 2</h5>
+                <h5>@Localizer["Sector"] № 3</h5>
+                <a href="https://minsk.gov.by/ru/org/5147/">@Localizer["9"]</a>
+            </div>
+            <br />
+            <a href="https://minsk.gov.by/ru/org/5194/">@Localizer["10"]</a>
+        </div>
+    </div>
+
+    <div class="center">
+        <button class="btn btn-info btn-block" type="button" data-toggle="collapse" data-target="#collapseBDM" aria-expanded="false" aria-controls="collapseBDM">
+            <p align="left"> @Localizer["BDM"] </p>
+        </button>
+    </div>
+    <div class="collapse" id="collapseBDM">
+        <div class="card card-body">
+            @Localizer["NameBDM"]
+        </div>
+    </div>
+
+    <div class="center">
+        <button class="btn btn-info btn-block" type="button" data-toggle="collapse" data-target="#collapseRegistry " aria-expanded="false" aria-controls="collapseRegistry">
+            <p align="left"> @Localizer["Registry"] </p>
+        </button>
+    </div>
+    <div class="collapse" id="collapseRegistry">
+        <div class="card card-body">
+            @Localizer["NameRegistry"]
+        </div>
+    </div>
+
+    <div class="center">
+        <button class="btn btn-info btn-block" type="button" data-toggle="collapse" data-target="#collapseGeneral" aria-expanded="false" aria-controls="collapseGeneral">
+            <p align="left"> @Localizer["General"] </p>
+        </button>
+    </div>
+    <div class="collapse" id="collapseGeneral">
+        <div class="card card-body">
+            @Localizer["NameGeneral"]
+            <a asp-area="" asp-controller="Home" asp-action="ColCent">@Localizer["ColCent"]</a>
+        </div>
+    </div>
+
+    <div class="center">
+        <button class="btn btn-info btn-block" type="button" data-toggle="collapse" data-target="#collapseEconomy" aria-expanded="false" aria-controls="collapseEconomy">
+            <p align="left">@Localizer["Economy"] </p>
+        </button>
+    </div>
+    <div class="collapse" id="collapseEconomy">
+        <div class="card card-body">
+            @Localizer["NameEconomy"]
+        </div>
+    </div>
+
+    <div class="center">
+        <button class="btn btn-info btn-block" type="button" data-toggle="collapse" data-target="#collapseBuh" aria-expanded="false" aria-controls="collapseBuh">
+            <p align="left"> @Localizer["Buh"] </p>
+        </button>
+    </div>
+    <div class="collapse" id="collapseBuh">
+        <div class="card card-body">
+            @Localizer["NameBuh"]
+        </div>
+    </div>
+</div>

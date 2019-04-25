@@ -1,0 +1,104 @@
+﻿@model Website.Models.LegalPerson
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = "Message";
+}
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/jquery/dist/jquery.maskedinput.js"></script>
+<script src="~/lib/jquery-masked/jquery.maskedinput.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.6/jquery.validate.unobtrusive.min.js"
+        asp-fallback-src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+        asp-fallback-test="window.jQuery && window.jQuery.validator && window.jQuery.validator.unobtrusive">
+</script>
+
+<script>
+    $(function () {
+        // Отображается 1 вкладка,
+        // т.к. отсчёт начинается с нуля
+        $("#myTab2 li:eq(0) a").tab('show');
+    });
+
+    function getFileName() {
+        var file = document.getElementById('uploaded-file').value;
+        file = file.replace(/\\/g, '/').split('/').pop();
+        document.getElementById('file-name').innerHTML = 'Имя файла: ' + file;
+    }
+</script>
+<script>
+    $(document).ready(function ($) {
+        $('#phone').mask("+375 (99) 999-99-99");
+    });
+</script>
+
+<h3>@Localizer["Head"]</h3>
+
+<div class="center">
+    <button class="btn btn-info btn-block" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        @ViewData["Message"] &emsp; @Localizer["EmailMassage"]
+    </button>
+</div>
+
+<div class="collapse" id="collapseExample">
+    <div class="card card-body">
+        @using (Html.BeginForm("Message", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+  
+        <div class="home-content">
+            <h5><b>@Localizer["EmailMassage"]</b></h5>
+            <a asp-area="" asp-controller="Home" asp-action="Message" class="btn btn-primary" role="button">@Localizer["Message"]</a>
+            <a asp-area="" asp-controller="Home" asp-action="MessageLegal" class="btn btn-primary" role="button">@Localizer["MessageLegal"]</a>
+            <h5><b>@Localizer["MessageLegal"]</b></h5>
+            <div class="form-group">
+                <h5>@Localizer["Designation"]</h5>
+                @Html.TextBoxFor(x => x.Designation, new { @class = "form-control", @required = "required" })
+                @Html.ValidationMessageFor(x => x.Designation)
+            </div>
+            <div class="form-group">
+                <h5>@Localizer["FulName"]</h5>
+                @Html.TextBoxFor(x => x.NameLegal, new { @class = "form-control", @required = "required" })
+                @Html.ValidationMessageFor(x => x.NameLegal)
+            </div>
+            <div class="form-group">
+                <h5>@Localizer["Name"]</h5>
+                @Html.TextBoxFor(x => x.Name, new { @class = "form-control", @required = "required" })
+                @Html.ValidationMessageFor(x => x.Name)
+            </div>
+            <div class="form-group">
+                <h5>@Localizer["Address"]</h5>
+                @Html.TextBoxFor(x => x.Address, new { @class = "form-control", @required = "required" })
+                @Html.ValidationMessageFor(x => x.Address)
+            </div>
+            <div class="form-group">
+                <h5>@Localizer["Mail"]</h5>
+                @Html.TextAreaFor(x => x.Message, new { @class = "form-control", @required = "required", @style = "min-width: 100%; width: 100%; max-width: 100%; min-height: 60px", @maxlength = "1000", @rows = "7", placeholder = "Ваше сообщение" })
+                @Html.ValidationMessageFor(x => x.Message)
+            </div>
+            <div class="form-group">
+                <h5>@Localizer["Email"]</h5>
+                @Html.TextBoxFor(x => x.Email, new { @class = "form-control", @type = "email"})
+            </div>
+            <div class="form-group">
+                <h5>@Localizer["Phone"]</h5>
+                @Html.TextBoxFor(x => x.Phone, new { @class = "form-control", @id = "phone", type = "tel", placeholder = "+375 (99) 999 99 99" })
+            </div>
+            <h3>@Localizer["FileMessage"]</h3>
+            <div class="file-upload">
+                <label>
+                    <input type="file" name="uploadedFile" onchange="getFileName ();" id="uploaded-file">
+                    <span class="h5">@Localizer["Fail"]</span>
+                </label>
+            </div>
+            <div id="file-name"></div>
+            <div class="text-center">
+                <input class="btn btn-primary" type="submit" value="@Localizer["Send"]" />
+            </div>
+        </div>
+
+        }
+    </div>
+</div>
+
+<h3>@Localizer["Footer"]</h3>

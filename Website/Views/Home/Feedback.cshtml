@@ -1,0 +1,56 @@
+﻿@model Website.Models.Person
+@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
+    ViewData["Title"] = "Feedback";
+}
+
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/lib/jquery/dist/jquery.maskedinput.js"></script>
+<script src="~/lib/jquery-masked/jquery.maskedinput.min.js"></script>
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jquery.validation.unobtrusive/3.2.6/jquery.validate.unobtrusive.min.js"
+        asp-fallback-src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
+        asp-fallback-test="window.jQuery && window.jQuery.validator && window.jQuery.validator.unobtrusive">
+</script>
+
+<script>
+    $(document).ready(function ($) {
+        $('#phone').mask("+375 (99) 999-99-99");
+    });
+</script>
+
+<div class="home-content"><b>@Localizer["Feedback"]</b></div>
+
+@using (Html.BeginForm("Feedback", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <div class="home-content">
+        <div class="form-group">
+            <h5>@Localizer["Name"]</h5>
+            @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+            @Html.ValidationMessageFor(x => x.Name)
+        </div>
+        <div class="form-group">
+            <h5>@Localizer["Mail"]</h5>
+            @Html.TextAreaFor(x => x.Message, new { @class = "form-control", @required = "required", @style = "min-width: 100%; width: 100%; max-width: 100%; min-height: 60px", @maxlength = "1000", @rows = "7", placeholder = "Ваше сообщение" })
+            @Html.ValidationMessageFor(x => x.Message)
+        </div>
+        <div class="form-group">
+            <h5>@Localizer["Email"]</h5>
+            @Html.TextBoxFor(x => x.Email, new { @class = "form-control", @type = "email" })
+        </div>
+        <div class="form-group">
+            <h5>@Localizer["Phone"]</h5>
+            @Html.TextBoxFor(x => x.Phone, new { @class = "form-control", @id = "phone", type = "tel", placeholder = "+375 (99) 999 99 99" })
+        </div>
+        <div class="text-center">
+            <div class="H1"><b> @ViewData["Message"]</b></div>
+            <button type="submit" class="btn btn-primary">
+                @Localizer["Send"]
+            </button>
+        </div>
+    </div>
+}
+
+
+

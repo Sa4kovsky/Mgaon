@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Address" xml:space="preserve">
+    <value>Адрес места жительства (места пребывания) (обязательно)</value>
+  </data>
+  <data name="Designation" xml:space="preserve">
+    <value>Наименование и (или) адрес организации либо должность лица (обязательно)</value>
+  </data>
+  <data name="Email" xml:space="preserve">
+    <value>Ваш e-mail (обязательно)</value>
+  </data>
+  <data name="EmailMassage" xml:space="preserve">
+    <value>Написать электронное обращение</value>
+  </data>
+  <data name="Fail" xml:space="preserve">
+    <value>Выберите файл</value>
+  </data>
+  <data name="FileMessage" xml:space="preserve">
+    <value>&lt;div class="home-content"&gt;
+&lt;p&gt;Допустимыми форматами прикрепляемых документов и (или) сведений в электронном виде являются &lt;em&gt;Portable Document Format/A&lt;/em&gt; (&lt;em&gt;PDF/A&lt;/em&gt;), &lt;em&gt;Office Open XML&lt;/em&gt; (&lt;em&gt;DOCX&lt;/em&gt;), двойной формат с разметкой (&lt;em&gt;DOC&lt;/em&gt;), Rich Text Format (&lt;em&gt;RTF&lt;/em&gt;), текстовый файл (&lt;em&gt;TXT&lt;/em&gt;), &lt;em&gt;Open Document Format&lt;/em&gt; (&lt;em&gt;ODT&lt;/em&gt;), формат архивации и сжатия данных (&lt;em&gt;ZIP, RAR&lt;/em&gt;), &lt;em&gt;Portable Network Graphics&lt;/em&gt; (&lt;em&gt;PNG&lt;/em&gt;), &lt;em&gt;Tagged Image File Format&lt;/em&gt; (&lt;em&gt;TIFF&lt;/em&gt;), &lt;em&gt;Joint Photograph Experts Group&lt;/em&gt; (&lt;em&gt;JPEG&lt;/em&gt;), &lt;em&gt;Joint Photograph Group&lt;/em&gt; (&lt;em&gt;JPG&lt;/em&gt;).&lt;/p&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="Footer" xml:space="preserve">
+    <value>&lt;div class="home-content"&gt;
+
+&lt;p&gt;Обращения должны быть рассмотрены не позднее 15 дней со дня, следующего за днем регистрации обращения Предприятием, а которые требуют дополнительного изучения и проверки – не позднее 1 месяца.&lt;br&gt;
+Ответы на электронные обращения направляются в электронном виде на адрес электронной почты, обозначенный в электронном обращении, или в письменном виде на адрес места жительства (место пребывания) гражданина или места пребывания юридического лица в случаях, установленных Законом.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Оставляются без рассмотрения по сути электронные обращения, которые (по которым):&lt;/b&gt;&lt;br&gt;
+1.изложены не на белорусском или русском языке;&lt;br&gt;
+2.не содержат фамилии, собственного имени, отчества , адреса места жительства (места пребывания) гражданина;&lt;br&gt;
+3.не содержат полного названия юридического лица и адреса его места пребывания, фамилии, собственного имени, отчества руководителя или лица, уполномоченного в установленном порядке подписывать обращения (для юридических лиц), адреса электронной почты заявителя;&lt;br&gt;
+4.содержат текст, который невозможно прочитать;&lt;br&gt;
+5.содержат нецензурные или оскорбительные слова или выражения;&lt;br&gt;
+6.подаются представителями заявителей, и к ним не прилагаются электронные копии документов, которые подтверждают их полномочия;&lt;br&gt;
+7.подлежат рассмотрению в соответствия с законодательством о конституционном судопроизводстве, гражданским, гражданским процессуальным, хозяйственным процессуальным, уголовно-процессуальным законодательством, законодательством, которое определяет порядок административного процесса, законодательством об административных процедурах или в соответствия с законодательными актами установленный другой порядок подачи и рассмотрения таких обращений;&lt;br&gt;
+8.содержат вопросы, которые не относятся к компетенции Предприятия;&lt;br&gt;
+9.пропущен без уважительной причины срок подачи обращения;&lt;br&gt;
+10.направлено повторное обращение, если оно уже было рассмотренное по сути и не содержаит новых обстоятельств, которые имеют значение для рассмотрения обращения по существу;&lt;br&gt;
+11.с заявителем прекращена переписка.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Отзыв электронного обращения&lt;/b&gt;&lt;br&gt;
+Заявитель имеет право отозвать свое обращение, пока оно не рассмотрено по сути.&lt;br&gt;
+Отзыв электронного обращения осуществляется путем подачи письменного заявления или направления заявления в электронной форме тем же способом, которым было направленное электронное обращение.&lt;/p&gt;
+
+&lt;p&gt;&lt;b&gt;Обжалование ответов на обращения&lt;/b&gt;&lt;br&gt;
+Ответ Предприятия на обращение или решение об оставлении обращения без рассмотрения по существу могут быть обжалованы в вышестоящую организацию – Минский городской исполнительный комитет (220030, г.Минск, пр. Независимости, д. 8).&lt;/p&gt;
+
+&lt;b&gt;&lt;p&gt;График работы Мингорисполком:&lt;/b&gt;&lt;br&gt;
+  &lt;table &gt;
+   &lt;tr&gt;&lt;td&gt;понедельник-четверг &amp;nbsp  &lt;/td&gt;&lt;td&gt;с 8.45 до 18.00&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;&lt;td&gt;пятница &lt;/td&gt;&lt;td&gt; c 8.45 до 16.45&lt;/td&gt;&lt;/tr&gt;
+   &lt;tr&gt;&lt;td&gt;обед &lt;/td&gt;&lt;td&gt; с 13.00 до 14.00&lt;/td&gt;&lt;/tr&gt;
+  &lt;/table&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="Head" xml:space="preserve">
+    <value>&lt;div class="home-content"&gt;
+&lt;p&gt;Электронные обращения граждан, в том числе индивидуальных предпринимателей (далее – граждан), и юридических лиц, поступившие в КУП «Минское городское агентство обслуживания населения», рассматриваются в соответствия с требованиями Закона Республики Беларусь от 18 июля 2011 г. № 300-З «Об обращениях граждан и юридических лиц» (далее – Закон).&lt;/p&gt;
+
+&lt;p&gt;В соответствии с Законом электронное обращение излагается на белорусском или русском языках.&lt;/p&gt;
+
+&lt;b&gt;Электронное обращение гражданина в обязательном порядке должно содержать:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;фамилия, собственное имя, отчество (если имеется) или инициалы гражданина;&lt;/li&gt;
+&lt;li&gt;адрес места его жительства (места пребывания);&lt;/li&gt;
+&lt;li&gt;изложение сути обращения;&lt;/li&gt;
+&lt;li&gt;адрес электронной почты гражданина.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;b&gt;Электронное обращение юридического лица в обязательном порядке должно содержать:&lt;/b&gt;
+&lt;ul&gt;
+&lt;li&gt;полное название юридического лица;&lt;/li&gt;
+&lt;li&gt;место пребывания юридического лица;&lt;/li&gt;
+&lt;li&gt;изложение сути обращения;&lt;/li&gt;
+&lt;li&gt;фамилия, собственное имя, отчество (если имеется) или инициалы руководителя или лица, уполномоченного в установленном порядке подписывать обращения;&lt;/li&gt;
+&lt;li&gt;адрес электронной почты юридического лица.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;b&gt;Внимание!&lt;/b&gt;&lt;br&gt;К электронным обращениям, подаваемым представителями заявителей, должны прилагаться электронные копии документов, подтверждающих их полномочия (пункт 2 статьи 25 Закона Республики Беларусь от 18 июля 2011 г. № 300-З "Об обращениях граждан и юридических лиц").&lt;/p&gt;
+
+&lt;p&gt;Согласно пункту 7 статьи 12 Закона в обращениях должна содержаться информация о результатах их предыдущего рассмотрения с приложением (при наличии) подтверждающих эту информацию документов.&lt;/p&gt;
+&lt;br&gt;
+
+&lt;p&gt;&lt;b&gt;Обращаем Ваше внимание, что на сообщения граждан или юридических лиц, направленные Предприятию посредством других рубрик данного сайта или на другие адреса электронной почты Предприятия, не распространяется действие Закона. Ответы на такие сообщения направляться не будут.&lt;/b&gt;&lt;/p&gt;
+&lt;/div&gt;</value>
+  </data>
+  <data name="Mail" xml:space="preserve">
+    <value>Сообщение (обязательно)</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Обращения граждан</value>
+  </data>
+  <data name="MessageLegal" xml:space="preserve">
+    <value>Обращения юридических лиц</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>ФИО (обязательно)</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>Контактный телефон</value>
+  </data>
+  <data name="Send" xml:space="preserve">
+    <value>Отправить</value>
+  </data>
+</root>
