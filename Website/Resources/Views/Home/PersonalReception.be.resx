@@ -117,118 +117,45 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="About" xml:space="preserve">
-    <value>Аб Прадпрыемстве</value>
-  </data>
-  <data name="AdmProcedures" xml:space="preserve">
-    <value>Заканадаўства аб адміністрацыйных працэдурах</value>
-  </data>
-  <data name="Advertising" xml:space="preserve">
-    <value>Рэклама ў службе «адно акно» и на сайце</value>
-  </data>
-  <data name="Appeals" xml:space="preserve">
-    <value>Электронныя звароты</value>
-  </data>
-  <data name="Book" xml:space="preserve">
-    <value>Кніга заўваг і прапаноў</value>
-  </data>
-  <data name="Centr" xml:space="preserve">
-    <value>Цэнтральны раён</value>
-  </data>
-  <data name="ColCentr" xml:space="preserve">
-    <value>Кантакт-цэнтр</value>
-  </data>
-  <data name="Communication" xml:space="preserve">
-    <value>Зваротная сувязь &lt;br/&gt;</value>
-  </data>
-  <data name="Contact" xml:space="preserve">
-    <value>Кантакты</value>
-  </data>
-  <data name="Enterprise" xml:space="preserve">
-    <value>Кіраўніцтва і структурныя падраздзяленні</value>
-  </data>
-  <data name="Frunz" xml:space="preserve">
-    <value>Фрунзенскі раён</value>
+  <data name="Footer" xml:space="preserve">
+    <value>&lt;p&gt;&lt;b&gt;Звяртаем Вашу ўвагу&lt;/b&gt;, што &lt;b&gt;папярэдні запіс на асабісты прыём&lt;/b&gt; ажыццяўляецца па тэлефоне 364 66 34 або ў кабінеце № 1 вядучым спецыялістам па справаводстве пры непасрэдным звароце грамадзяніна або прадстаўніка юрыдычнай асобы &lt;u&gt; з прад'яўленнем дакумента, які сведчыць асобу, і дакумента, які пацвярджае службовыя паўнамоцтвы.&lt;/u&gt;&lt;/p&gt;</value>
   </data>
   <data name="Head" xml:space="preserve">
-    <value>Кіраўнікі структурных &lt;br/&gt; падраздзяленняў</value>
+    <value>&lt;p&gt;&lt;b&gt;ГРАФІК&lt;/b&gt;&lt;br/&gt;
+асабістага прыёму грамадзян, юрыдычных асоб, індывідуальных прадпрымальнікаў у камунальным унітарным прадпрыемстве 
+«Мінскае гарадское агенцтва абслугоўвання насельніцтва&lt;/p&gt;</value>
   </data>
-  <data name="Hotline" xml:space="preserve">
-    <value>Гарачая лінія Мінгарвыканкама</value>
-  </data>
-  <data name="Id" xml:space="preserve">
-    <value>Унікальны ідэнтыфікатар</value>
-  </data>
-  <data name="InfoDay" xml:space="preserve">
-    <value>Аб кантакт-цэнтры</value>
-  </data>
-  <data name="Information" xml:space="preserve">
-    <value>Звесткі аб праходжанні дакументаў праз службу «адно акно»</value>
-  </data>
-  <data name="Len" xml:space="preserve">
-    <value>Ленінскі раён</value>
-  </data>
-  <data name="Main" xml:space="preserve">
-    <value>Галоўны</value>
-  </data>
-  <data name="MinGor" xml:space="preserve">
-    <value>Мінгарвыканкам</value>
-  </data>
-  <data name="Mosk" xml:space="preserve">
-    <value>Маскоўскі раён</value>
-  </data>
-  <data name="New" xml:space="preserve">
-    <value>Навіна</value>
-  </data>
-  <data name="NewsColCentr" xml:space="preserve">
-    <value>Навіны Кантакт-цэнтра</value>
-  </data>
-  <data name="Oct" xml:space="preserve">
-    <value>Кастрычнінскі раён</value>
-  </data>
-  <data name="OneWindow" xml:space="preserve">
-    <value>Службы «адно акно»</value>
-  </data>
-  <data name="Part" xml:space="preserve">
-    <value>Партызанскі раён</value>
-  </data>
-  <data name="Perv" xml:space="preserve">
-    <value>Першамайскі раён</value>
-  </data>
-  <data name="png" xml:space="preserve">
-    <value>/images/HeadBY.png</value>
-  </data>
-  <data name="Pre-registration" xml:space="preserve">
-    <value>Папярэдні запіс у службу«адно акно»</value>
-  </data>
-  <data name="Procedure" xml:space="preserve">
-    <value>Адміністрацыйныя працэдуры &lt;br/&gt; якія ажыццяўляюцца прадпрыемствам</value>
-  </data>
-  <data name="Reception" xml:space="preserve">
-    <value>Асабісты прыём</value>
-  </data>
-  <data name="Sovet" xml:space="preserve">
-    <value>Савецкі раён</value>
-  </data>
-  <data name="Structure" xml:space="preserve">
-    <value>Структура прадпрыемства</value>
-  </data>
-  <data name="Theme" xml:space="preserve">
-    <value>Графік правядзення &lt;br/&gt; тэматычных дзён і &lt;br/&gt; інфармавання</value>
-  </data>
-  <data name="TradeUnion" xml:space="preserve">
-    <value>Прафсаюз</value>
-  </data>
-  <data name="Treatment" xml:space="preserve">
-    <value>Зварот</value>
-  </data>
-  <data name="Webcams" xml:space="preserve">
-    <value>Вэб-камер у службах  «адно акно»</value>
-  </data>
-  <data name="Zav" xml:space="preserve">
-    <value>Завадскі раён</value>
-  </data>
-  <data name="Questionnaire" xml:space="preserve">
-    <value>Анкета ацэнкі работы службы «адно акно»</value>
+  <data name="Table" xml:space="preserve">
+    <value>&lt;table class="table home-content" style="text-align:left"&gt;
+         &lt;tbody&gt;
+             &lt;tr&gt;
+                 &lt;td&gt;Дырэктар&lt;/td&gt;
+                 &lt;td&gt;
+                     Яфімаў Аляксандр 
+Станіслававіч
+                 &lt;/td&gt;
+                 &lt;td&gt;
+                    Другая серада месяца
+з 08.00 да 13.00&lt;/br&gt;
+Кабінет № 3
+
+                 &lt;/td&gt;
+             &lt;/tr&gt;
+             &lt;tr&gt;
+                 &lt;td&gt;Намеснік дырэктара&lt;/td&gt;
+                 &lt;td&gt;
+                     Трушкевіч Павел
+Анатольевіч
+
+                 &lt;/td&gt;
+                 &lt;td&gt;
+                     Чацвертая серада месяца
+з 08.00 да 13.00 &lt;/br&gt;
+Кабінет № 4 
+
+                 &lt;/td&gt;
+             &lt;/tr&gt;
+        &lt;/tbody&gt;
+    &lt;/table&gt;</value>
   </data>
 </root>

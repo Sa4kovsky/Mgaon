@@ -117,118 +117,28 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="About" xml:space="preserve">
-    <value>Аб Прадпрыемстве</value>
-  </data>
-  <data name="AdmProcedures" xml:space="preserve">
-    <value>Заканадаўства аб адміністрацыйных працэдурах</value>
-  </data>
-  <data name="Advertising" xml:space="preserve">
-    <value>Рэклама ў службе «адно акно» и на сайце</value>
-  </data>
-  <data name="Appeals" xml:space="preserve">
-    <value>Электронныя звароты</value>
-  </data>
-  <data name="Book" xml:space="preserve">
-    <value>Кніга заўваг і прапаноў</value>
-  </data>
-  <data name="Centr" xml:space="preserve">
-    <value>Цэнтральны раён</value>
-  </data>
-  <data name="ColCentr" xml:space="preserve">
-    <value>Кантакт-цэнтр</value>
-  </data>
-  <data name="Communication" xml:space="preserve">
-    <value>Зваротная сувязь &lt;br/&gt;</value>
-  </data>
-  <data name="Contact" xml:space="preserve">
-    <value>Кантакты</value>
-  </data>
-  <data name="Enterprise" xml:space="preserve">
-    <value>Кіраўніцтва і структурныя падраздзяленні</value>
-  </data>
-  <data name="Frunz" xml:space="preserve">
-    <value>Фрунзенскі раён</value>
-  </data>
   <data name="Head" xml:space="preserve">
-    <value>Кіраўнікі структурных &lt;br/&gt; падраздзяленняў</value>
-  </data>
-  <data name="Hotline" xml:space="preserve">
-    <value>Гарачая лінія Мінгарвыканкама</value>
-  </data>
-  <data name="Id" xml:space="preserve">
-    <value>Унікальны ідэнтыфікатар</value>
-  </data>
-  <data name="InfoDay" xml:space="preserve">
-    <value>Аб кантакт-цэнтры</value>
-  </data>
-  <data name="Information" xml:space="preserve">
-    <value>Звесткі аб праходжанні дакументаў праз службу «адно акно»</value>
-  </data>
-  <data name="Len" xml:space="preserve">
-    <value>Ленінскі раён</value>
-  </data>
-  <data name="Main" xml:space="preserve">
-    <value>Галоўны</value>
-  </data>
-  <data name="MinGor" xml:space="preserve">
-    <value>Мінгарвыканкам</value>
-  </data>
-  <data name="Mosk" xml:space="preserve">
-    <value>Маскоўскі раён</value>
-  </data>
-  <data name="New" xml:space="preserve">
-    <value>Навіна</value>
-  </data>
-  <data name="NewsColCentr" xml:space="preserve">
-    <value>Навіны Кантакт-цэнтра</value>
-  </data>
-  <data name="Oct" xml:space="preserve">
-    <value>Кастрычнінскі раён</value>
-  </data>
-  <data name="OneWindow" xml:space="preserve">
-    <value>Службы «адно акно»</value>
-  </data>
-  <data name="Part" xml:space="preserve">
-    <value>Партызанскі раён</value>
-  </data>
-  <data name="Perv" xml:space="preserve">
-    <value>Першамайскі раён</value>
-  </data>
-  <data name="png" xml:space="preserve">
-    <value>/images/HeadBY.png</value>
-  </data>
-  <data name="Pre-registration" xml:space="preserve">
-    <value>Папярэдні запіс у службу«адно акно»</value>
-  </data>
-  <data name="Procedure" xml:space="preserve">
-    <value>Адміністрацыйныя працэдуры &lt;br/&gt; якія ажыццяўляюцца прадпрыемствам</value>
-  </data>
-  <data name="Reception" xml:space="preserve">
-    <value>Асабісты прыём</value>
-  </data>
-  <data name="Sovet" xml:space="preserve">
-    <value>Савецкі раён</value>
-  </data>
-  <data name="Structure" xml:space="preserve">
-    <value>Структура прадпрыемства</value>
-  </data>
-  <data name="Theme" xml:space="preserve">
-    <value>Графік правядзення &lt;br/&gt; тэматычных дзён і &lt;br/&gt; інфармавання</value>
-  </data>
-  <data name="TradeUnion" xml:space="preserve">
-    <value>Прафсаюз</value>
-  </data>
-  <data name="Treatment" xml:space="preserve">
-    <value>Зварот</value>
-  </data>
-  <data name="Webcams" xml:space="preserve">
-    <value>Вэб-камер у службах  «адно акно»</value>
-  </data>
-  <data name="Zav" xml:space="preserve">
-    <value>Завадскі раён</value>
-  </data>
-  <data name="Questionnaire" xml:space="preserve">
-    <value>Анкета ацэнкі работы службы «адно акно»</value>
+    <value>&lt;p&gt;
+&lt;a href="http://www.pravo.by/document/?guid=3871&amp;p0=h10800433"&gt;1. ЗАКОН РЕСПУБЛИКИ БЕЛАРУСЬ ОТ 28.10.2008 № 433-З «Об основах административных процедур»&lt;/a&gt; &lt;/p&gt;
+&lt;p&gt;
+ &lt;a href="http://www.pravo.by/document/?guid=3871&amp;p0=P31800202"&gt;2. УКАЗ ПРЕЗИДЕНТА РЕСПУБЛИКИ БЕЛАРУСЬ ОТ 24.05.2018 № 202 «О службе «одно окно»&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+ &lt;a href="http://www.pravo.by/document/?guid=3871&amp;p0=P31000200"&gt;3. УКАЗ ПРЕЗИДЕНТА РЕСПУБЛИКИ БЕЛАРУСЬ ОТ 26.04.2010 № 200 «Об административных процедурах, осуществляемых государственными органами и иными организациями по заявлениям граждан»&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+ &lt;a href="http://www.pravo.by/document/?guid=3871&amp;p0=C21200156"&gt;4. ПОСТАНОВЛЕНИЕ СОВЕТА МИНИСТРОВ РЕСПУБЛИКИ БЕЛАРУСЬ ОТ 17.02.2012 № 156 «Об утверждении единого перечня административных процедур, осуществляемых государственными органами и иными организациями в отношении юридических лиц и индивидуальных предпринимателей, внесении дополнения в постановление Совета Министров Республики Беларусь от 14 февраля 2009 г. № 193 и признании утратившими силу некоторых постановлений Совета Министров Республики Беларусь»&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+ &lt;a href="http://www.pravo.by/document/?guid=3871&amp;p0=C21700529"&gt;5. ПОСТАНОВЛЕНИЕ СОВЕТА МИНИСТРОВ РЕСПУБЛИКИ БЕЛАРУСЬ ОТ 14.07.2017 № 529 «Об административных процедурах, подлежащих осуществлению в электронной форме»&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;
+ &lt;a href="http://www.pravo.by/document/?guid=3871&amp;p0=C21800740"&gt;6. ПОСТАНОВЛЕНИЕ СОВЕТА МИНИСТРОВ РЕСПУБЛИКИ БЕЛАРУСЬ ОТ 17.10.2018 № 740  «О перечне административных процедур, прием заявлений и выдача решений по которым осуществляются через службу  «одно окно»&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+ &lt;a href="http://www.government.by/upload/docs/file374473295646a7d1.PDF"&gt;7. ПОСТАНОВЛЕНИЕ СОВЕТА МИНИСТРОВ РЕСПУБЛИКИ БЕЛАРУСЬ ОТ 17.10.2018 № 741  «О некоторых мерах по реализации Указа Президента Республики Беларусь от 24 мая 2018 г. № 202»&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+ &lt;a href="http://www.pravo.by/document/?guid=3871&amp;p0=p00600002"&gt;8. ДИРЕКТИВА ПРЕЗИДЕНТА РЕСПУБЛИКИ БЕЛАРУСЬ от 27.12.2006 № 2 «О дебюрократизации государственного аппарата и повышении качества обеспечения жизнедеятельности населения»&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+ &lt;a href="http://www.pravo.by/document/?guid=3871&amp;p0=C21700445"&gt;9. ПОСТАНОВЛЕНИЕ СОВЕТА МИНИСТРОВ РЕСПУБЛИКИ БЕЛАРУСЬ ОТ 13.06.2017 № 445  «Об утверждении перечня сложных и многоступенчатых административных процедур, осуществляемых уполномоченными органами в отношении граждан (кроме индивидуальных предпринимателей)»&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+ &lt;a href="http://www.pravo.by/document/?guid=3871&amp;p0=C21700445"&gt;10. ПОСТАНОВЛЕНИЕ МИНИСТЕРСТВА ЮСТИЦИИ РЕСПУБЛИКИ БЕЛАРУСЬ ОТ 07.05.2009 № 39  «Об утверждении Инструкции о порядке ведения делопроизводства по административным процедурам в государственных органах, иных организациях»&lt;/a&gt;
+&lt;/p&gt;</value>
   </data>
 </root>

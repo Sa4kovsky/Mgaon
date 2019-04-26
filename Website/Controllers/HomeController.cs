@@ -67,12 +67,12 @@ namespace Website.Controllers
             return View();
         }
 
-        public IActionResult Message()
+        public IActionResult Message() //обращение
         {
             return View(new Person());
         }
 
-        public IActionResult MessageLegal()
+        public IActionResult MessageLegal() //обращение юр лиц
         {
             return View(new LegalPerson());
         }
@@ -96,7 +96,7 @@ namespace Website.Controllers
             return View();
         }
 
-        public IActionResult Feedback()
+        public IActionResult Feedback() // сообщение
         {
             return View(new Person());
         }
@@ -143,22 +143,43 @@ namespace Website.Controllers
             await smtp.SendMailAsync(m);
         }
 
-        public IActionResult ChairmanLine()
+        public IActionResult ChairmanLine() // горячая линия
         {
             return View();
         }
 
-        public IActionResult EnterpriseAdministration()
+        public IActionResult EnterpriseAdministration() 
         {
             return View();
         }
 
-        public IActionResult AdministrationProc()
+        public IActionResult AdministrationProc() // административные процедуры
         {
             return View();
         }
 
-        public IActionResult PersonalReception()
+        public IActionResult PersonalReception() //личный прием
+        {
+            return View();
+        }
+
+        public IActionResult Advertising() // реклама
+        {
+            return View();
+        }
+
+
+        public IActionResult ADMProcedures() // Зак-во об адм процедурах
+        {
+            return View();
+        }
+
+        public IActionResult ColCentr() // Кол-центр
+        {
+            return View();
+        }
+
+        public IActionResult WebCamers() // камеры
         {
             return View();
         }

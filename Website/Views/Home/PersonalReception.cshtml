@@ -1,4 +1,17 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+@inject IViewLocalizer Localizer
+@{
     ViewData["Title"] = "PersonalReception";
 }
 
+<body>
+    <div class="home-content" style="text-align:center">
+        @Localizer["Head"]
+    </div>
+
+    @Localizer["Table"]
+
+    <div class="home-content" style="text-align:center">
+        @Localizer["Footer"]
+    </div>
+</body>
