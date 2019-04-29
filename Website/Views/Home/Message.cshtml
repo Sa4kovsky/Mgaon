@@ -37,18 +37,18 @@
 
 <h3>@Localizer["Head"]</h3>
 
-    <div class="center">
-        <button class="btn btn-info btn-block" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
-            @ViewData["Message"] &emsp; @Localizer["EmailMassage"]
-        </button>
-    </div>
+<div class="center">
+    <button class="btn btn-info btn-block" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        @ViewData["Message"] &emsp; @Localizer["EmailMassage"]
+    </button>
+</div>
 
-    <div class="collapse" id="collapseExample">
-        <div class="card card-body">
+<div class="collapse" id="collapseExample">
+    <div class="card card-body">
 
-            @using (Html.BeginForm("Message", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
-            {
-             
+        @using (Html.BeginForm("Message", "Home", FormMethod.Post, new { enctype = "multipart/form-data" }))
+        {
+
             <div class="home-content">
                 <h5><b>@Localizer["EmailMassage"]</b></h5>
                 <a asp-area="" asp-controller="Home" asp-action="Message" class="btn btn-primary" role="button">@Localizer["Message"]</a>
@@ -95,8 +95,8 @@
                     <input class="btn btn-primary" type="submit" value="@Localizer["Send"]" />
                 </div>
             </div>
-            }
-        </div>
+        }
     </div>
+</div>
 
-    <h3>@Localizer["Footer"]</h3>
+<h3>@Localizer["Footer"]</h3>

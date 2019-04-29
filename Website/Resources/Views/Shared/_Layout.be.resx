@@ -145,7 +145,7 @@
     <value>Кантакты</value>
   </data>
   <data name="Enterprise" xml:space="preserve">
-    <value>Кіраўніцтва і структурныя падраздзяленні</value>
+    <value>Кіраўніцтва і структурныя &lt;br /&gt;  падраздзяленні</value>
   </data>
   <data name="Frunz" xml:space="preserve">
     <value>Фрунзенскі раён</value>
@@ -202,7 +202,7 @@
     <value>Папярэдні запіс у службу«адно акно»</value>
   </data>
   <data name="Procedure" xml:space="preserve">
-    <value>Адміністрацыйныя працэдуры &lt;br/&gt; якія ажыццяўляюцца прадпрыемствам</value>
+    <value>Адміністрацыйныя працэдуры &lt;br/&gt; якія ажыццяўляюцца &lt;br/&gt; прадпрыемствам</value>
   </data>
   <data name="Reception" xml:space="preserve">
     <value>Асабісты прыём</value>
@@ -223,7 +223,7 @@
     <value>Зварот</value>
   </data>
   <data name="Webcams" xml:space="preserve">
-    <value>Вэб-камер у службах  «адно акно»</value>
+    <value>Вэб-камеры у службах  «адно акно»</value>
   </data>
   <data name="Zav" xml:space="preserve">
     <value>Завадскі раён</value>

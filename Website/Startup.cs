@@ -18,7 +18,7 @@ using Website.Models.Context;
 
 namespace Website
 {
-    public class Startup
+    public  class Startup
     {
         public Startup(IConfiguration configuration)
         {

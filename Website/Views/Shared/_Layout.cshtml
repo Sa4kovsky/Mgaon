@@ -1,30 +1,45 @@
-﻿<!DOCTYPE html>
-@using Microsoft.AspNetCore.Mvc.Localization
+﻿@using Microsoft.AspNetCore.Mvc.Localization
 @inject IViewLocalizer Localizer
-    <html>
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>@ViewData["Title"] - Website</title>
-        <link href="~/Views/Shared/_ValidationScriptsPartial.cshtml">
-        <environment include="Development">
-            <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
-            <link rel="stylesheet" href="~/css/site.css" />
-        </environment>
-        <environment exclude="Development">
-            <link rel="stylesheet" href="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/css/bootstrap.min.css"
-                  asp-fallback-href="~/lib/bootstrap/dist/css/bootstrap.min.css"
-                  asp-fallback-test-class="sr-only" asp-fallback-test-property="position" asp-fallback-test-value="absolute" />
-            <link rel="stylesheet" href="~/css/site.min.css" asp-append-version="true" />
-        </environment>
-    </head>
+
+<!DOCTYPE html>    
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Website</title>
+
+    <link href="~/Views/Shared/_ValidationScriptsPartial.cshtml">
+
+    <link href="~/css/site.css" rel="stylesheet" />
+
+    <environment include="Development">
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
+        <script src="~/js/site.js" asp-append-version="true"></script>
+    </environment>
+    <environment exclude="Development">
+        <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
+                asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
+                asp-fallback-test="window.jQuery"
+                crossorigin="anonymous"
+                integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
+        </script>
+        <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
+                asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
+                asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
+                crossorigin="anonymous"
+                integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
+        </script>
+        <script src="~/js/site.min.js" asp-append-version="true"></script>
+    </environment>
+
+</head>
     <body class="container" style="padding: 0px; background-color:#eef6fc">
         <heder class="img">
             <div class='imgblock'>
                 <img src="@Localizer["png"]" />
-               <span> @await Html.PartialAsync("_SelectLanguagePartial")</span>
+                <span> @await Html.PartialAsync("_SelectLanguagePartial")</span>
             </div>
-
         </heder>
 
 
@@ -59,16 +74,16 @@
                                 <h4>@Localizer["OneWindow"]</h4>
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a href="https://minsk.gov.by/ru/org/5194/" ><h4>@Localizer["MinGor"]</h4></a></li>
-                                <li><a href="https://minsk.gov.by/ru/org/5171/" ><h4>@Localizer["Zav"]</h4></a></li>
-                                <li><a href="https://minsk.gov.by/ru/org/5184/" ><h4>@Localizer["Len"]</h4></a></li>
-                                <li><a href="https://minsk.gov.by/ru/org/5170/" ><h4>@Localizer["Mosk"]</h4></a></li>
-                                <li><a href="https://minsk.gov.by/ru/org/5189/" ><h4>@Localizer["Oct"]</h4></a></li>
-                                <li><a href="https://minsk.gov.by/ru/org/5161/" ><h4>@Localizer["Part"]</h4></a></li>
-                                <li><a href="https://minsk.gov.by/ru/org/5141/" ><h4>@Localizer["Perv"]</h4></a></li>
-                                <li><a href="https://minsk.gov.by/ru/org/5109/" ><h4>@Localizer["Sovet"]</h4></a></li>
-                                <li><a href="https://minsk.gov.by/ru/org/5088/" ><h4>@Localizer["Frunz"]</h4></a></li>
-                                <li><a href="https://minsk.gov.by/ru/org/5147/" ><h4>@Localizer["Centr"]</h4></a></li>
+                                <li><a href="https://minsk.gov.by/ru/org/5194/"><h4>@Localizer["MinGor"]</h4></a></li>
+                                <li><a href="https://minsk.gov.by/ru/org/5171/"><h4>@Localizer["Zav"]</h4></a></li>
+                                <li><a href="https://minsk.gov.by/ru/org/5184/"><h4>@Localizer["Len"]</h4></a></li>
+                                <li><a href="https://minsk.gov.by/ru/org/5170/"><h4>@Localizer["Mosk"]</h4></a></li>
+                                <li><a href="https://minsk.gov.by/ru/org/5189/"><h4>@Localizer["Oct"]</h4></a></li>
+                                <li><a href="https://minsk.gov.by/ru/org/5161/"><h4>@Localizer["Part"]</h4></a></li>
+                                <li><a href="https://minsk.gov.by/ru/org/5141/"><h4>@Localizer["Perv"]</h4></a></li>
+                                <li><a href="https://minsk.gov.by/ru/org/5109/"><h4>@Localizer["Sovet"]</h4></a></li>
+                                <li><a href="https://minsk.gov.by/ru/org/5088/"><h4>@Localizer["Frunz"]</h4></a></li>
+                                <li><a href="https://minsk.gov.by/ru/org/5147/"><h4>@Localizer["Centr"]</h4></a></li>
                             </ul>
                         </li>
                         <li>
@@ -77,7 +92,7 @@
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a asp-area="" asp-controller="Home" asp-action="ColCentr"><h4>@Localizer["InfoDay"]</h4></a></li>
-                                <li><a asp-area="" asp-controller="Home" asp-action="Contact"><h4>@Localizer["Theme"]</h4></a></li>
+                                <li><a asp-area="" asp-controller="Home" asp-action="Mode"><h4>@Localizer["Theme"]</h4></a></li>
                             </ul>
                         </li>
                         <li>
@@ -140,29 +155,29 @@
 
 
             <div class="footer row nav navbar-nav">
-                    <ul align="center">
-                        <li>
-                            <h6>&copy; 2019 КУП Минское <br /> городское агентство <br /> обслуживания населения</h6>
-                        </li>
-                        <li>
-                            <a href="http://president.gov.by">
-                                <img src="/images/prez.png" style="width:170px;">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="https://minsk.gov.by/ru/">
-                                <img src="/images/sm.png" style="width:180px;">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="http://www.pravo.by">
-                                <img src="/images/Pravo.png" style="width:170px;" border="0">
-                            </a>
-                        </li>
-                        <li>
-                            <h6>ул. Максима Танка, 36 корпус 1 <br /> Приемная: (017) 364 66 34 <br /> Контакт-центр: 142 <br /> e-mail: info@mgaon.by</h6>
-                        </li>
-                    </ul>
+                <ul align="center">
+                    <li>
+                        <h6>&copy; 2019 КУП Минское <br /> городское агентство <br /> обслуживания населения</h6>
+                    </li>
+                    <li>
+                        <a href="http://president.gov.by">
+                            <img src="/images/prez.png" style="width:170px;">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://minsk.gov.by/ru/">
+                            <img src="/images/sm.png" style="width:180px;">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="http://www.pravo.by">
+                            <img src="/images/Pravo.png" style="width:170px;" border="0">
+                        </a>
+                    </li>
+                    <li>
+                        <h6>ул. Максима Танка, 36 корпус 1 <br /> Тел/факс: (017) 364 66 34 <br /> Контакт-центр: 142 <br /> e-mail: info@mgaon.by</h6>
+                    </li>
+                </ul>
             </div>
         </div>
 
@@ -181,30 +196,8 @@
             })();
         </script>
         <!-- {/literal} END JIVOSITE CODE -->
-  
+
 
         <partial name="_CookieConsentPartial" />
-
-        <environment include="Development">
-            <script src="~/lib/jquery/dist/jquery.js"></script>
-            <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
-            <script src="~/js/site.js" asp-append-version="true"></script>
-        </environment>
-        <environment exclude="Development">
-            <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-3.3.1.min.js"
-                    asp-fallback-src="~/lib/jquery/dist/jquery.min.js"
-                    asp-fallback-test="window.jQuery"
-                    crossorigin="anonymous"
-                    integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT">
-            </script>
-            <script src="https://ajax.aspnetcdn.com/ajax/bootstrap/3.3.7/bootstrap.min.js"
-                    asp-fallback-src="~/lib/bootstrap/dist/js/bootstrap.min.js"
-                    asp-fallback-test="window.jQuery && window.jQuery.fn && window.jQuery.fn.modal"
-                    crossorigin="anonymous"
-                    integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa">
-            </script>
-            <script src="~/js/site.min.js" asp-append-version="true"></script>
-        </environment>
-
     </body>
 </html>

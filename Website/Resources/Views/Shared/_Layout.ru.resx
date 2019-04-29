@@ -145,7 +145,7 @@
     <value>Контакты</value>
   </data>
   <data name="Enterprise" xml:space="preserve">
-    <value>Руководство и структурные подразделения</value>
+    <value>Руководство и структурные &lt;br /&gt;  подразделения</value>
   </data>
   <data name="Frunz" xml:space="preserve">
     <value>Фрунзенский район</value>
@@ -199,7 +199,7 @@
     <value>/images/HeadRU.png</value>
   </data>
   <data name="Pre-registration" xml:space="preserve">
-    <value>Предварительная запись в службу «одно окно»</value>
+    <value>Предварительная запись &lt;br/&gt; в службу «одно окно»</value>
   </data>
   <data name="Procedure" xml:space="preserve">
     <value>Административные процедуры &lt;br /&gt; осуществляемые предприятием</value>
@@ -223,7 +223,7 @@
     <value>Обращения</value>
   </data>
   <data name="Webcams" xml:space="preserve">
-    <value>Веб-камер в службах «одно окно»</value>
+    <value>Веб-камеры в службах «одно окно»</value>
   </data>
   <data name="Zav" xml:space="preserve">
     <value>Заводской район</value>

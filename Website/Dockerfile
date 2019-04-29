@@ -1,15 +1,18 @@
 FROM microsoft/dotnet:2.1-aspnetcore-runtime AS base
 WORKDIR /app
-EXPOSE 80
-EXPOSE 443
+EXPOSE 5000
 
 FROM microsoft/dotnet:2.1-sdk AS build
 WORKDIR /src
-COPY ["Website/Website.csproj", "Website/"]
+COPY ["Website.csproj", "Website/"]
+RUN ls -al && pwd
 RUN dotnet restore "Website/Website.csproj"
-COPY . .
+COPY . Website/
+RUN ls -al && pwd
 WORKDIR "/src/Website"
+RUN ls -al && pwd
 RUN dotnet build "Website.csproj" -c Release -o /app
+RUN ls -al && pwd
 
 FROM build AS publish
 RUN dotnet publish "Website.csproj" -c Release -o /app
