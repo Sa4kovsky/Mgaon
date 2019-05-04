@@ -55,15 +55,11 @@ namespace Website.Controllers
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Your application description page. asdd ddd dddd ddd dddd hiohui hiuh ii uhuiuhi hiu iu hi hi hi hi hi no h hi h [ asdd ddd dddd ddd dddd hiohui hiuh ii uhuiuhi hiu iu hi hi hi hi hi no h hi h [  kj ksbndbaisd as du;as dash ashd ohaos ho hoi h ho ho h o ho hoh ks hd0a] dd dddd dddd ddd ddd dddd ddddd ddd ddddd dddd dd  asdd ddd dddd ddd dddd hiohui hiuh ii uhuiuhi hiu iu hi hi hi hi hi no h hi h [  kj ksbndbaisd as du;as dash ashd ohaos ho hoi h ho ho h o ho hoh ks hd0a] dd dddd dddd ddd ddd dddd ddddd ddd ddddd dddd dd asdd ddd dddd ddd dddd hiohui hiuh ii uhuiuhi hiu iu hi hi hi hi hi no h hi h [  kj ksbndbaisd as du;as dash ashd ohaos ho hoi h ho ho h o ho hoh ks hd0a] dd dddd dddd ddd ddd dddd ddddd ddd ddddd dddd dd asdd ddd dddd ddd dddd hiohui hiuh ii uhuiuhi hiu iu hi hi hi hi hi no h hi h [  kj ksbndbaisd as du;as dash ashd ohaos ho hoi h ho ho h o ho hoh ks hd0a] dd dddd dddd ddd ddd dddd ddddd ddd ddddd dddd dd asdd ddd dddd ddd dddd hiohui hiuh ii uhuiuhi hiu iu hi hi hi hi hi no h hi h [  kj ksbndbaisd as du;as dash ashd ohaos ho hoi h ho ho h o ho hoh ks hd0a] dd dddd dddd ddd ddd dddd ddddd ddd ddddd dddd dd asdd ddd dddd ddd dddd hiohui hiuh ii uhuiuhi hiu iu hi hi hi hi hi no h hi h [  kj ksbndbaisd as du;as dash ashd ohaos ho hoi h ho ho h o ho hoh ks hd0a] dd dddd dddd ddd ddd dddd ddddd ddd ddddd dddd dd asdd ddd dddd ddd dddd hiohui hiuh ii uhuiuhi hiu iu hi hi hi hi hi no h hi h [  kj ksbndbaisd as du;as dash ashd ohaos ho hoi h ho ho h o ho hoh ks hd0a] dd dddd dddd ddd ddd dddd ddddd ddd ddddd dddd dd asdd ddd dddd ddd dddd hiohui hiuh ii uhuiuhi hiu iu hi hi hi hi hi no h hi h [  kj ksbndbaisd as du;as dash ashd ohaos ho hoi h ho ho h o ho hoh ks hd0a] dd dddd dddd ddd ddd dddd ddddd ddd ddddd dddd dd asdd ddd dddd ddd dddd hiohui hiuh ii uhuiuhi hiu iu hi hi hi hi hi no h hi h [  kj ksbndbaisd as du;as dash ashd ohaos ho hoi h ho ho h o ho hoh ks hd0a] dd dddd dddd ddd ddd dddd ddddd ddd ddddd dddd dd  kj ksbndbaisd as du;as dash ashd ohaos ho hoi h ho ho h o ho hoh ks hd0a] dd dddd dddd ddd ddd dddd ddddd ddd ddddd dddd dd  asdd ddd dddd ddd dddd hiohui hiuh ii uhuiuhi hiu iu hi hi hi hi hi no h hi h [  kj ksbndbaisd as du;as dash ashd ohaos ho hoi h ho ho h o ho hoh ks hd0a] dd dddd dddd ddd ddd dddd ddddd ddd ddddd dddd dd dddd ddd dddddd ddddd ddd ddddd d ddddd dddddd ddddd";
-
-            return View();
+           return View();
         }
 
         public IActionResult Contact()
         {
-            ViewData["Message"] = "Your contact page.";
-
             return View();
         }
 
@@ -85,7 +81,7 @@ namespace Website.Controllers
                 // путь к папке Files
                 string path = "/Files/" + uploadedFile.FileName;
                 // сохраняем файл в папку Files в каталоге wwwroot
-                using (var fileStream = new FileStream(_appEnvironment.WebRootPath + path, System.IO.FileMode.Create))
+                using (var fileStream = new FileStream("~/opt" + path, System.IO.FileMode.Create))
                 {
                     await uploadedFile.CopyToAsync(fileStream);
                 }
@@ -112,9 +108,9 @@ namespace Website.Controllers
         public async void SendEmailAsync(LegalPerson person, Models.FileMode file, string messaga)
         {
             // отправитель - устанавливаем адрес и отображаемое в письме имя
-            MailAddress from = new MailAddress("notification.prereg@mgaon.by", person.Name);
+            MailAddress from = new MailAddress("info@mgaon.by", person.Name);
             // кому отправляем
-            MailAddress to = new MailAddress("notification.prereg@mgaon.by");
+            MailAddress to = new MailAddress("info@mgaon.by");
             // создаем объект сообщения
             MailMessage m = new MailMessage(from, to);
             // тема письма
@@ -123,7 +119,7 @@ namespace Website.Controllers
             m.Body = "<html><body> <br>" + "<br>" + messaga + @"
                           <br>Наименование и (или) адрес организации либо должность лица - "+ person.Designation + @"
                           <br>Полное наименование юридического лица (обязательно) - " + person.NameLegal + @"
-                          <br>ФИО  -  " + person.Name+ @"
+                          <br>ФИО  -  " + person.Name + @"
                           <br>Адрес места жительства (места пребывания) - " + person.Address + @"
                           <br>E-mail - " + person.Email + @"
                           <br>Контактный телефон - " + person.Phone + @"                                                                                              
@@ -133,12 +129,12 @@ namespace Website.Controllers
             m.IsBodyHtml = true;
             if (file != null)
             {
-                m.Attachments.Add(new Attachment(_appEnvironment.WebRootPath + file.Path));
+                m.Attachments.Add(new Attachment("~/opt" + file.Path));
             }
             // адрес smtp-сервера и порт, с которого будем отправлять письмо
             SmtpClient smtp = new SmtpClient("smtp.yandex.ru", 587);
             // логин и пароль
-            smtp.Credentials = new NetworkCredential("notification.prereg@mgaon.by", "4rfvBGT5");
+            smtp.Credentials = new NetworkCredential("info@mgaon.by", "!23QweAsd");
             smtp.EnableSsl = true;
             await smtp.SendMailAsync(m);
         }
@@ -189,7 +185,17 @@ namespace Website.Controllers
             return View();
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult IdView() // уникальный идентификатор
+        {
+            return View();
+        }
+
+        public IActionResult Union() //профсоюз
+        {
+            return View();
+        }
+
+       [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });

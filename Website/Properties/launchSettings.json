@@ -27,6 +27,12 @@
       "commandName": "Docker",
       "launchBrowser": true,
       "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}"
+    },
+    "newProfile1": {
+      "commandName": "IISExpress",
+      "environmentVariables": {
+        "ASPNETCORE:ENVIRONMENT": "Production"
+      }
     }
   }
 }

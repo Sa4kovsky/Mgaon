@@ -133,10 +133,10 @@
     <value>Книга замечаний &lt;br /&gt; и предложений</value>
   </data>
   <data name="Centr" xml:space="preserve">
-    <value>Центральный район</value>
+    <value>администрации Центрального района</value>
   </data>
   <data name="ColCentr" xml:space="preserve">
-    <value>Контакт-центр</value>
+    <value>Контакт-центр 142</value>
   </data>
   <data name="Communication" xml:space="preserve">
     <value>Обратная связь &lt;br /&gt;</value>
@@ -148,16 +148,16 @@
     <value>Руководство и структурные &lt;br /&gt;  подразделения</value>
   </data>
   <data name="Frunz" xml:space="preserve">
-    <value>Фрунзенский район</value>
+    <value>администрации Фрунзенского района</value>
   </data>
   <data name="Head" xml:space="preserve">
     <value>Руководители структурных  &lt;br /&gt; подразделений</value>
   </data>
   <data name="Hotline" xml:space="preserve">
-    <value>Горячая линия Мингорисполкома</value>
+    <value>Горячая линия председателя Мингорисполкома</value>
   </data>
   <data name="Id" xml:space="preserve">
-    <value>Уникальный идентификатор</value>
+    <value>Уникальный идентификатор / &lt;br /&gt; Электронная цифровая подпись </value>
   </data>
   <data name="InfoDay" xml:space="preserve">
     <value>О контакт-центре</value>
@@ -166,16 +166,16 @@
     <value>Сведения о прохождении документов через службу «одно окно»</value>
   </data>
   <data name="Len" xml:space="preserve">
-    <value>Ленинский район</value>
+    <value>администрации Ленинского района</value>
   </data>
   <data name="Main" xml:space="preserve">
     <value>Главная</value>
   </data>
   <data name="MinGor" xml:space="preserve">
-    <value>Мингорисполком</value>
+    <value>Мингорисполкома</value>
   </data>
   <data name="Mosk" xml:space="preserve">
-    <value>Московский район</value>
+    <value>администрации Московского района</value>
   </data>
   <data name="New" xml:space="preserve">
     <value>Новости</value>
@@ -184,16 +184,16 @@
     <value>Новости контакт-центра</value>
   </data>
   <data name="Oct" xml:space="preserve">
-    <value>Октябрьский район</value>
+    <value>администрации Октябрьского района</value>
   </data>
   <data name="OneWindow" xml:space="preserve">
     <value>Службы «одно окно»</value>
   </data>
   <data name="Part" xml:space="preserve">
-    <value>Партизанский район</value>
+    <value>администрации Партизанского района</value>
   </data>
   <data name="Perv" xml:space="preserve">
-    <value>Первомайский район</value>
+    <value>администрации Первомайского района</value>
   </data>
   <data name="png" xml:space="preserve">
     <value>/images/HeadRU.png</value>
@@ -202,13 +202,13 @@
     <value>Предварительная запись &lt;br/&gt; в службу «одно окно»</value>
   </data>
   <data name="Procedure" xml:space="preserve">
-    <value>Административные процедуры &lt;br /&gt; осуществляемые предприятием</value>
+    <value>Административные процедуры, &lt;br /&gt; осуществляемые предприятием</value>
   </data>
   <data name="Reception" xml:space="preserve">
     <value>Личный прием</value>
   </data>
   <data name="Sovet" xml:space="preserve">
-    <value>Советский район</value>
+    <value>администрации Советского района</value>
   </data>
   <data name="Structure" xml:space="preserve">
     <value>Структура предприятия</value>
@@ -226,7 +226,7 @@
     <value>Веб-камеры в службах «одно окно»</value>
   </data>
   <data name="Zav" xml:space="preserve">
-    <value>Заводской район</value>
+    <value>администрации Заводского района</value>
   </data>
   <data name="Questionnaire" xml:space="preserve">
     <value>Анкета оценки работы службы «одно окно»</value>

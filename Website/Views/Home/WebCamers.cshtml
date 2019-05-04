@@ -1,11 +1,28 @@
 ﻿@using Microsoft.AspNetCore.Mvc.Localization
 @inject IViewLocalizer Localizer
-@{
-    ViewData["Title"] = "Сamera";
-}
 
 
 <script src="~/js/uppod-0.13.05.js"></script>
+
+<div class="home-content">
+    <br />
+    <p><b>Камера службы «одно окно» администрации Заводского района г. Минска</b></p>
+</div>
 <div class="player" id="videoplayer"></div>
 
-<script type="text/javascript">this.player = new Uppod({ m: "video", uid: "videoplayer", file: "http://87.252.228.220:8081/14/2/playlist.m3u8", poster: "https://images.wallpaperscraft.ru/image/star_wars_chewbacca_napitok_malysh_29187_1280x720.jpg" });</script>
+<div class="home-content">
+    <br />
+    <p><b>Камера службы «одно окно» администрации Заводского района г. Минска</b></p>
+</div>
+<div class="player" id="videoplayer1"></div>
+
+<div class="home-content">
+    <br />
+    <p><b>Камера службы «одно окно» администрации Московского района г. Минска</b></p>
+</div>
+<div class="player" id="videoplayer2"></div>
+
+
+<script type="text/javascript">this.player = new Uppod({ m: "video", uid: "videoplayer", file: "http://87.252.228.220:8081/14/2/playlist.m3u8", poster: "https://images.wallpaperscraft.ru/image/kamera_minimalizm_fon_66173_1280x720.jpg" });</script>
+<script type="text/javascript">this.player = new Uppod({ m: "video", uid: "videoplayer1", file: "http://87.252.228.220:8081/1/2/playlist.m3u8", poster: "https://images.wallpaperscraft.ru/image/kamera_minimalizm_fon_66173_1280x720.jpg" });</script>
+<script type="text/javascript">this.player = new Uppod({ m: "video", uid: "videoplayer2", file: "http://87.252.228.220:8081/live/sub/mosadm/playlist.m3u8", poster: "https://images.wallpaperscraft.ru/image/kamera_minimalizm_fon_66173_1280x720.jpg" });</script>

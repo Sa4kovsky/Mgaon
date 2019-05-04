@@ -2,11 +2,10 @@
 
 @using Microsoft.AspNetCore.Mvc.Localization
 @inject IViewLocalizer Localizer
-@{
-    ViewData["Title"] = "Home Page";
-}
+
+<link href="~/css/scss.scss" rel="stylesheet" />
+
 <script>
-    /* Demo purposes only */
     $(".hover").mouseleave(
         function () {
             $(this).removeClass("hover");
@@ -18,21 +17,17 @@
 
 @foreach (var item in Model)
 {
-    <figure class="baha1493">
-        <div class="image"><img src=@item.Images alt="ls-sample1" /></div>
-        <figcaption>
-            <div class="date"><span class="day">@item.DateStart.Day</span><span class="month">@item.DateStart.Month</span></div>
-            <h3></h3>
-            <p>
-                @item.Title <br>
-                <br>
-                @item.Organization <br>
-                <br>
-                @item.Position <br>
-                <br>
-                @item.Name <br>
-                Дата проведения @item.DateStart - @item.DateFinish
-            </p>
-        </figcaption>
-    </figure>
+<figure class="baha1493">
+    <div class="image"><img src=@item.Images alt="ls-sample1" /></div>
+    <figcaption>
+        <div class="date"><span class="day">@item.DateStart.Day</span><span class="month">@item.DateStart.Month</span></div>
+        <p>
+            @item.Organization <br>
+            Дата проведения: <b>@item.DateStart.ToShortDateString() @item.DateStart.ToShortTimeString() - @item.DateFinish.ToShortDateString() @item.DateFinish.ToShortTimeString()</b><br>
+            Тема: <b>@item.Title</b> <br>
+            @item.Name <br>
+            <em>@item.Position</em> <br>
+        </p>
+    </figcaption>
+</figure>
 }

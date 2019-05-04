@@ -1,8 +1,5 @@
 ﻿@using Microsoft.AspNetCore.Mvc.Localization
 @inject IViewLocalizer Localizer
-@{
-    ViewData["Title"] = "EnterpriseAdministration";
-}
 
 <div class="home-content">
     <div class="center">
@@ -48,28 +45,35 @@
             @Localizer["NameBD"]
             <div align="center">
                 <a href="https://minsk.gov.by/ru/org/5171/">@Localizer["1"]</a> <br />
-                                                                                       <a href="https://minsk.gov.by/ru/org/5184/">@Localizer["2"]</a> <br />
-                                                                                                                                                              <a href="https://minsk.gov.by/ru/org/5170/">@Localizer["3"]</a> <br />
-                                                                                                                                                                                                                              <h5>@Localizer["Sector"] № 1</h5>
-                                                                                                                                                                                                                              <h5>@Localizer["Sector"] № 2</h5>
+                <a href="https://minsk.gov.by/ru/org/5184/">@Localizer["2"]</a> <br />
+                <a href="https://minsk.gov.by/ru/org/5170/">@Localizer["3"]</a> <br />
+                <h5>@Localizer["Sector"] № 1</h5>
+                <h5>@Localizer["Sector"] № 2</h5>
                 <a href="https://minsk.gov.by/ru/org/5189/">@Localizer["4"]</a> <br />
-                                                                                       <a href="https://minsk.gov.by/ru/org/5161/">@Localizer["5"]</a> <br />
-                                                                                                                                                       <h5>@Localizer["Sector"] № 1</h5>
+                <a href="https://minsk.gov.by/ru/org/5161/">@Localizer["5"]</a> <br />
+                <h5>@Localizer["Sector"] № 1</h5>
                 <a href="https://minsk.gov.by/ru/org/5141/">@Localizer["6"]</a> <br />
-                                                                                <h5>@Localizer["Sector"] № 1</h5>
+                <h5>@Localizer["Sector"] № 1</h5>
                 <a href="https://minsk.gov.by/ru/org/5109/">@Localizer["7"]</a> <br />
-                                                                                <h5>@Localizer["Sector"] № 1</h5>
+                <h5>@Localizer["Sector"] № 1</h5>
                 <a href="https://minsk.gov.by/ru/org/5088/">@Localizer["8"]</a>
                 <h5>@Localizer["Sector"] № 1</h5>
                 <h5>@Localizer["Sector"] № 2</h5>
                 <h5>@Localizer["Sector"] № 3</h5>
                 <a href="https://minsk.gov.by/ru/org/5147/">@Localizer["9"]</a>
             </div>
-            <br />
-            <a href="https://minsk.gov.by/ru/org/5194/">@Localizer["10"]</a>
         </div>
     </div>
-
+    <div class="center">
+        <button class="btn btn-info btn-block" type="button" data-toggle="collapse" data-target="#collapseMinsk" aria-expanded="false" aria-controls="collapseMinsk">
+            <p align="left"> @Localizer["10"] </p>
+        </button>
+    </div>
+    <div class="collapse" id="collapseMinsk">
+        <div class="card card-body">
+            @Localizer["NameMinsk"]
+        </div>
+    </div>
     <div class="center">
         <button class="btn btn-info btn-block" type="button" data-toggle="collapse" data-target="#collapseBDM" aria-expanded="false" aria-controls="collapseBDM">
             <p align="left"> @Localizer["BDM"] </p>
@@ -100,7 +104,17 @@
     <div class="collapse" id="collapseGeneral">
         <div class="card card-body">
             @Localizer["NameGeneral"]
-            <a asp-area="" asp-controller="Home" asp-action="ColCentr">@Localizer["ColCent"]</a>
+        </div>
+    </div>
+
+    <div class="center">
+        <button class="btn btn-info btn-block" type="button" data-toggle="collapse" data-target="#collapseColCentr" aria-expanded="false" aria-controls="collapseColCentr">
+            <p align="left"> @Localizer["ColCent"] </p>
+        </button>
+    </div>
+    <div class="collapse" id="collapseColCentr">
+        <div class="card card-body">
+            @Localizer["NameColCentr"]
         </div>
     </div>
 
@@ -123,6 +137,18 @@
     <div class="collapse" id="collapseBuh">
         <div class="card card-body">
             @Localizer["NameBuh"]
+        </div>
+    </div>
+</div>
+
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
+    <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    </ol>
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="~/images/AdmProc/img6.jpg"" class="img-responsive" />
         </div>
     </div>
 </div>

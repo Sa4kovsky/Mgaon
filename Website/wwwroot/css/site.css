@@ -1,8 +1,6 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
 for details on configuring this project to bundle and minify static web assets. */
-@import url('../lib/bootstrap/dist/css/bootstrap.min.css');
-@import url('../lib/bootstrap/dist/css/bootstrap.css');
-
+@import url('../css/scss.scss');
 
 body {
     padding-top: 0px;
@@ -132,6 +130,7 @@ img {
     position: relative;
     display: inline-block;
 }
+
 
 .catside a:hover {
     background: #0078BF;
@@ -3349,13 +3348,12 @@ input[type="checkbox"].input-validation-error {
     overflow: hidden;
     margin: 10px 1%;
     min-width: 200px;
-    max-width: 420px;
-    height: 560px;
+    max-width: 305px;
+    height: 430px;
     width: 100%;
     background-color: #ffffff;
     color: #000000;
     text-align: left;
-    font-size: 16px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.15);
 }
 
@@ -3381,13 +3379,13 @@ input[type="checkbox"].input-validation-error {
     }
 
     .baha1493 img {
-        max-width: 100%;
+        max-height: 200px;
         vertical-align: top;
         position: relative;
     }
 
     .baha1493 figcaption {
-        padding: 20px 20px 30px;
+        padding: 5px 5px 5px;
         background-color: #ffffff;
     }
 
@@ -3477,5 +3475,4 @@ input[type="checkbox"].input-validation-error {
 body {
     background-color: #212121;
 }
-
 
